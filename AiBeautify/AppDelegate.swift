@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import TabBarSplitViewController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+//        
+//        let fileTab = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
+//        let fileVc = UINavigationController(rootViewController: FileViewController())
+//        fileVc.tabBarItem = fileTab
+//        
+//        let fileTab_ = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
+//        let fileVc_ = UINavigationController(rootViewController: FileViewController())
+//        fileVc_.tabBarItem = fileTab_
+//        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        window?.rootViewController = TabBarSplitViewController(
+//            primaryViewControllers: [fileVc, fileVc_],
+//            SecondaryViewControllerConfiguration: (General: DrawViewController.self,
+//                                                   withNav: false,
+//                                                   Empty: EmptyViewController.self))
+//        window?.becomeKey()
         return true
     }
 

@@ -3,27 +3,86 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B106094235DF844003C1096 /* POSTJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B106093235DF844003C1096 /* POSTJSON.swift */; };
+		3B244E22234F58900084888F /* Pods_AiBeautify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B244E21234F58900084888F /* Pods_AiBeautify.framework */; };
+		3B27ECFF235DE4F7001D9919 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27ECFE235DE4F7001D9919 /* Mask.swift */; };
+		3B27ED01235DE8A5001D9919 /* Sketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27ED00235DE8A5001D9919 /* Sketch.swift */; };
+		3B27ED03235DE8DA001D9919 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B27ED02235DE8DA001D9919 /* Stroke.swift */; };
+		3B5ED501235CB067002F563C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED4FB235CB066002F563C /* UIColorExtension.swift */; };
+		3B5ED502235CB067002F563C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED4FC235CB066002F563C /* Common.swift */; };
+		3B5ED503235CB067002F563C /* PathWithColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED4FD235CB067002F563C /* PathWithColor.swift */; };
+		3B5ED504235CB067002F563C /* PathWithNoColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED4FE235CB067002F563C /* PathWithNoColor.swift */; };
+		3B5ED505235CB067002F563C /* SpecialPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED4FF235CB067002F563C /* SpecialPoint.swift */; };
+		3B5ED506235CB067002F563C /* RGBCLASS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5ED500235CB067002F563C /* RGBCLASS.swift */; };
+		3B6A639A235EF4FF000EAE26 /* GETJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A6399235EF4FF000EAE26 /* GETJSON.swift */; };
+		3B6A639C235F202A000EAE26 /* IntData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A639B235F202A000EAE26 /* IntData.swift */; };
+		3B6A63A0235F32D3000EAE26 /* GETURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A639F235F32D3000EAE26 /* GETURL.swift */; };
+		3B6A63A2235F3346000EAE26 /* URLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6A63A1235F3346000EAE26 /* URLData.swift */; };
+		42015A6822DCA4EA0080DB13 /* DetailColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42015A6722DCA4EA0080DB13 /* DetailColorPickerView.swift */; };
+		421375BA22D1B4FF00448506 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421375B922D1B4FF00448506 /* ImageSaver.swift */; };
+		424ECCFF22D5924500B8632B /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ECCFE22D5924500B8632B /* DrawView.swift */; };
+		424ECD0122D59D9300B8632B /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ECD0022D59D9300B8632B /* Utility.swift */; };
+		42FE77B622A20E83001EB8BD /* SettingPencilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE77B522A20E83001EB8BD /* SettingPencilViewController.swift */; };
 		BE295D1C2278AD3A00166AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D1B2278AD3A00166AC6 /* AppDelegate.swift */; };
-		BE295D1E2278AD3A00166AC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D1D2278AD3A00166AC6 /* ViewController.swift */; };
+		BE295D1E2278AD3A00166AC6 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D1D2278AD3A00166AC6 /* AlbumViewController.swift */; };
 		BE295D212278AD3A00166AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE295D1F2278AD3A00166AC6 /* Main.storyboard */; };
 		BE295D242278AD3A00166AC6 /* AiBeautify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE295D222278AD3A00166AC6 /* AiBeautify.xcdatamodeld */; };
 		BE295D262278AD3C00166AC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE295D252278AD3C00166AC6 /* Assets.xcassets */; };
 		BE295D292278AD3C00166AC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE295D272278AD3C00166AC6 /* LaunchScreen.storyboard */; };
+		BE295D3522794ED400166AC6 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D3422794ED400166AC6 /* DrawViewController.swift */; };
+		BE295D372279529800166AC6 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D362279529800166AC6 /* EmptyViewController.swift */; };
+		BE295D3D2279E6AE00166AC6 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D3C2279E6AE00166AC6 /* AlbumViewModel.swift */; };
+		BE295D3F2279E87000166AC6 /* FolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D3E2279E87000166AC6 /* FolderCell.swift */; };
+		BE295D41227AEDF500166AC6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D40227AEDF500166AC6 /* SettingsViewController.swift */; };
+		BE295D43227AF0CC00166AC6 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D42227AF0CC00166AC6 /* SearchViewController.swift */; };
+		BE295D47227D4CA400166AC6 /* AlbumView+Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE295D46227D4CA400166AC6 /* AlbumView+Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B106093235DF844003C1096 /* POSTJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POSTJSON.swift; sourceTree = "<group>"; };
+		3B244E21234F58900084888F /* Pods_AiBeautify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_AiBeautify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B27ECFE235DE4F7001D9919 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		3B27ED00235DE8A5001D9919 /* Sketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sketch.swift; sourceTree = "<group>"; };
+		3B27ED02235DE8DA001D9919 /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		3B5ED4FB235CB066002F563C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		3B5ED4FC235CB066002F563C /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = "../../../编程/未命名文件夹/Common.swift"; sourceTree = "<group>"; };
+		3B5ED4FD235CB067002F563C /* PathWithColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathWithColor.swift; sourceTree = "<group>"; };
+		3B5ED4FE235CB067002F563C /* PathWithNoColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathWithNoColor.swift; sourceTree = "<group>"; };
+		3B5ED4FF235CB067002F563C /* SpecialPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialPoint.swift; sourceTree = "<group>"; };
+		3B5ED500235CB067002F563C /* RGBCLASS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBCLASS.swift; sourceTree = "<group>"; };
+		3B6A6399235EF4FF000EAE26 /* GETJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETJSON.swift; sourceTree = "<group>"; };
+		3B6A639B235F202A000EAE26 /* IntData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntData.swift; sourceTree = "<group>"; };
+		3B6A639F235F32D3000EAE26 /* GETURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GETURL.swift; sourceTree = "<group>"; };
+		3B6A63A1235F3346000EAE26 /* URLData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLData.swift; sourceTree = "<group>"; };
+		42015A6722DCA4EA0080DB13 /* DetailColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailColorPickerView.swift; sourceTree = "<group>"; };
+		421375B922D1B4FF00448506 /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		424ECCFA22D5921F00B8632B /* AiBeautify-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AiBeautify-Bridging-Header.h"; sourceTree = "<group>"; };
+		424ECCFE22D5924500B8632B /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		424ECD0022D59D9300B8632B /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		42FE77B522A20E83001EB8BD /* SettingPencilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPencilViewController.swift; sourceTree = "<group>"; };
+		877B8CCC001C5BD1C8B59415 /* Pods-AiBeautify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiBeautify.release.xcconfig"; path = "Target Support Files/Pods-AiBeautify/Pods-AiBeautify.release.xcconfig"; sourceTree = "<group>"; };
+		98B3282A3E56E901B45F3E65 /* Pods-AiBeautify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AiBeautify.debug.xcconfig"; path = "Target Support Files/Pods-AiBeautify/Pods-AiBeautify.debug.xcconfig"; sourceTree = "<group>"; };
 		BE295D182278AD3A00166AC6 /* AiBeautify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AiBeautify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE295D1B2278AD3A00166AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE295D1D2278AD3A00166AC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE295D1D2278AD3A00166AC6 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		BE295D202278AD3A00166AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE295D232278AD3A00166AC6 /* AiBeautify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AiBeautify.xcdatamodel; sourceTree = "<group>"; };
 		BE295D252278AD3C00166AC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE295D282278AD3C00166AC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE295D2A2278AD3C00166AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE295D302278B7EA00166AC6 /* Aiolos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Aiolos.framework; path = Carthage/Build/iOS/Aiolos.framework; sourceTree = "<group>"; };
+		BE295D3422794ED400166AC6 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		BE295D362279529800166AC6 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
+		BE295D3C2279E6AE00166AC6 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		BE295D3E2279E87000166AC6 /* FolderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderCell.swift; sourceTree = "<group>"; };
+		BE295D40227AEDF500166AC6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		BE295D42227AF0CC00166AC6 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BE295D46227D4CA400166AC6 /* AlbumView+Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlbumView+Photo.swift"; sourceTree = "<group>"; };
+		F74D10BCAD67469A1595E0F9 /* Pods_AiBeautify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AiBeautify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +90,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B244E22234F58900084888F /* Pods_AiBeautify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00230731EF4177DD7354ABD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98B3282A3E56E901B45F3E65 /* Pods-AiBeautify.debug.xcconfig */,
+				877B8CCC001C5BD1C8B59415 /* Pods-AiBeautify.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BE295D0F2278AD3A00166AC6 = {
 			isa = PBXGroup;
 			children = (
 				BE295D1A2278AD3A00166AC6 /* AiBeautify */,
 				BE295D192278AD3A00166AC6 /* Products */,
+				00230731EF4177DD7354ABD4 /* Pods */,
+				C7697A2BE23529EDFFC93734 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +127,52 @@
 		BE295D1A2278AD3A00166AC6 /* AiBeautify */ = {
 			isa = PBXGroup;
 			children = (
+				3B6A639B235F202A000EAE26 /* IntData.swift */,
+				3B106093235DF844003C1096 /* POSTJSON.swift */,
+				3B6A6399235EF4FF000EAE26 /* GETJSON.swift */,
+				3B6A639F235F32D3000EAE26 /* GETURL.swift */,
+				3B6A63A1235F3346000EAE26 /* URLData.swift */,
+				3B5ED4FC235CB066002F563C /* Common.swift */,
+				3B27ECFE235DE4F7001D9919 /* Mask.swift */,
+				3B27ED00235DE8A5001D9919 /* Sketch.swift */,
+				3B27ED02235DE8DA001D9919 /* Stroke.swift */,
+				3B5ED4FD235CB067002F563C /* PathWithColor.swift */,
+				3B5ED4FE235CB067002F563C /* PathWithNoColor.swift */,
+				3B5ED500235CB067002F563C /* RGBCLASS.swift */,
+				3B5ED4FF235CB067002F563C /* SpecialPoint.swift */,
+				3B5ED4FB235CB066002F563C /* UIColorExtension.swift */,
 				BE295D1B2278AD3A00166AC6 /* AppDelegate.swift */,
-				BE295D1D2278AD3A00166AC6 /* ViewController.swift */,
+				BE295D3422794ED400166AC6 /* DrawViewController.swift */,
+				424ECCFE22D5924500B8632B /* DrawView.swift */,
+				42FE77B522A20E83001EB8BD /* SettingPencilViewController.swift */,
+				42015A6722DCA4EA0080DB13 /* DetailColorPickerView.swift */,
+				BE295D362279529800166AC6 /* EmptyViewController.swift */,
+				BE295D1D2278AD3A00166AC6 /* AlbumViewController.swift */,
+				BE295D3C2279E6AE00166AC6 /* AlbumViewModel.swift */,
+				BE295D46227D4CA400166AC6 /* AlbumView+Photo.swift */,
+				424ECD0022D59D9300B8632B /* Utility.swift */,
+				BE295D3E2279E87000166AC6 /* FolderCell.swift */,
+				BE295D42227AF0CC00166AC6 /* SearchViewController.swift */,
+				421375B922D1B4FF00448506 /* ImageSaver.swift */,
 				BE295D1F2278AD3A00166AC6 /* Main.storyboard */,
+				BE295D40227AEDF500166AC6 /* SettingsViewController.swift */,
 				BE295D252278AD3C00166AC6 /* Assets.xcassets */,
 				BE295D272278AD3C00166AC6 /* LaunchScreen.storyboard */,
 				BE295D2A2278AD3C00166AC6 /* Info.plist */,
 				BE295D222278AD3A00166AC6 /* AiBeautify.xcdatamodeld */,
+				424ECCFA22D5921F00B8632B /* AiBeautify-Bridging-Header.h */,
 			);
 			path = AiBeautify;
+			sourceTree = "<group>";
+		};
+		C7697A2BE23529EDFFC93734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B244E21234F58900084888F /* Pods_AiBeautify.framework */,
+				BE295D302278B7EA00166AC6 /* Aiolos.framework */,
+				F74D10BCAD67469A1595E0F9 /* Pods_AiBeautify.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE295D2D2278AD3C00166AC6 /* Build configuration list for PBXNativeTarget "AiBeautify" */;
 			buildPhases = (
+				9A93B1471FEF186523CDF8EA /* [CP] Check Pods Manifest.lock */,
 				BE295D142278AD3A00166AC6 /* Sources */,
 				BE295D152278AD3A00166AC6 /* Frameworks */,
 				BE295D162278AD3A00166AC6 /* Resources */,
+				8581DE78CADCD7BCDE34971F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +209,7 @@
 				TargetAttributes = {
 					BE295D172278AD3A00166AC6 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -133,14 +244,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8581DE78CADCD7BCDE34971F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AiBeautify/Pods-AiBeautify-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AiBeautify/Pods-AiBeautify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Agrume/Agrume.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Chrysan/Chrysan.framework",
+				"${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaLiang/MaLiang.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/TabBarSplitViewController/TabBarSplitViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/UIImageColors/UIImageColors.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AiBeautify/Pods-AiBeautify-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Agrume.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Chrysan.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CollectionKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaLiang.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TabBarSplitViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIImageColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AiBeautify/Pods-AiBeautify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A93B1471FEF186523CDF8EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AiBeautify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE295D142278AD3A00166AC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE295D1E2278AD3A00166AC6 /* ViewController.swift in Sources */,
+				3B6A639A235EF4FF000EAE26 /* GETJSON.swift in Sources */,
+				3B5ED501235CB067002F563C /* UIColorExtension.swift in Sources */,
+				3B6A63A0235F32D3000EAE26 /* GETURL.swift in Sources */,
+				3B6A63A2235F3346000EAE26 /* URLData.swift in Sources */,
+				3B27ECFF235DE4F7001D9919 /* Mask.swift in Sources */,
+				424ECD0122D59D9300B8632B /* Utility.swift in Sources */,
+				3B6A639C235F202A000EAE26 /* IntData.swift in Sources */,
+				3B27ED01235DE8A5001D9919 /* Sketch.swift in Sources */,
+				42015A6822DCA4EA0080DB13 /* DetailColorPickerView.swift in Sources */,
+				3B5ED502235CB067002F563C /* Common.swift in Sources */,
+				42FE77B622A20E83001EB8BD /* SettingPencilViewController.swift in Sources */,
+				3B27ED03235DE8DA001D9919 /* Stroke.swift in Sources */,
+				BE295D3D2279E6AE00166AC6 /* AlbumViewModel.swift in Sources */,
+				BE295D3F2279E87000166AC6 /* FolderCell.swift in Sources */,
+				BE295D3522794ED400166AC6 /* DrawViewController.swift in Sources */,
+				BE295D43227AF0CC00166AC6 /* SearchViewController.swift in Sources */,
+				BE295D1E2278AD3A00166AC6 /* AlbumViewController.swift in Sources */,
+				BE295D372279529800166AC6 /* EmptyViewController.swift in Sources */,
+				3B5ED503235CB067002F563C /* PathWithColor.swift in Sources */,
+				424ECCFF22D5924500B8632B /* DrawView.swift in Sources */,
+				421375BA22D1B4FF00448506 /* ImageSaver.swift in Sources */,
 				BE295D242278AD3A00166AC6 /* AiBeautify.xcdatamodeld in Sources */,
 				BE295D1C2278AD3A00166AC6 /* AppDelegate.swift in Sources */,
+				3B5ED504235CB067002F563C /* PathWithNoColor.swift in Sources */,
+				3B5ED505235CB067002F563C /* SpecialPoint.swift in Sources */,
+				3B106094235DF844003C1096 /* POSTJSON.swift in Sources */,
+				BE295D41227AEDF500166AC6 /* SettingsViewController.swift in Sources */,
+				3B5ED506235CB067002F563C /* RGBCLASS.swift in Sources */,
+				BE295D47227D4CA400166AC6 /* AlbumView+Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +446,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -278,43 +501,61 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		BE295D2E2278AD3C00166AC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B3282A3E56E901B45F3E65 /* Pods-AiBeautify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9RBABFVUZL;
+				DEVELOPMENT_TEAM = XTR739T29L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AiBeautify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aUcid.dev.AiBeautify;
+				PRODUCT_BUNDLE_IDENTIFIER = xqj.dev.AiBeautify.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "AiBeautify/AiBeautify-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Debug;
 		};
 		BE295D2F2278AD3C00166AC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 877B8CCC001C5BD1C8B59415 /* Pods-AiBeautify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9RBABFVUZL;
+				DEVELOPMENT_TEAM = XTR739T29L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AiBeautify/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = aUcid.dev.AiBeautify;
+				PRODUCT_BUNDLE_IDENTIFIER = xqj.dev.AiBeautify.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "AiBeautify/AiBeautify-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)";
 			};
 			name = Release;
 		};

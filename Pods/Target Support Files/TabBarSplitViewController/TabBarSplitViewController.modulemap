@@ -1,0 +1,6 @@
+framework module TabBarSplitViewController {
+  umbrella header "TabBarSplitViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

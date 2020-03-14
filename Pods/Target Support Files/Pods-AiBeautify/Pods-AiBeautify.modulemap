@@ -1,0 +1,6 @@
+framework module Pods_AiBeautify {
+  umbrella header "Pods-AiBeautify-umbrella.h"
+
+  export *
+  module * { export * }
+}

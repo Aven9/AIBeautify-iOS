@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/Pods-AiBeautify/Pods-AiBeautify-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Chrysan/Chrysan.framework
+${BUILT_PRODUCTS_DIR}/CollectionKit/CollectionKit.framework
+${BUILT_PRODUCTS_DIR}/FileKit/FileKit.framework
+${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework
+${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework
+${BUILT_PRODUCTS_DIR}/MaLiang/MaLiang.framework
+${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework
+${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework
+${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework
+${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework
+${BUILT_PRODUCTS_DIR}/TabBarSplitViewController/TabBarSplitViewController.framework
+${BUILT_PRODUCTS_DIR}/UIImageColors/UIImageColors.framework

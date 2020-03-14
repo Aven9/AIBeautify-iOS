@@ -1,0 +1,24 @@
+{
+  "name": "TabBarSplitViewController",
+  "version": "1.0.0",
+  "summary": "Adaptive UISplitViewController with UITabBarController as primary view controller.",
+  "homepage": "https://github.com/indievox-inc/TabBarSplitViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Denken": "denkeni@indievox.com"
+  },
+  "social_media_url": "https://twitter.com/denkeni",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source": {
+    "git": "https://github.com/indievox-inc/TabBarSplitViewController.git",
+    "tag": "v1.0.0",
+    "submodules": true
+  },
+  "source_files": "TabBarSplitViewController/**/*.{h,swift}"
+}
